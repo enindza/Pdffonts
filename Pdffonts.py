@@ -14,10 +14,6 @@ def pdffonts(infile):
     if not osp.exists(infile):
         raise RuntimeError('Provided input file not found: %s' % infile)
 
-    def _extract(row):
-        """Extracts the right hand value from a : delimited row"""
-        return row.split(':', 1)[1].strip()
-
     def findspaceposition(cmd_out_list):
         spaceposition = []
         if len(cmd_out_list) > 2:
