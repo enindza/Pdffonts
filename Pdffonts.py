@@ -1,8 +1,6 @@
 import subprocess
 import re
 
-
-
 def pdffonts(infile):
     """
     Wraps command line utility pdffonts
