@@ -51,7 +51,6 @@ def pdffonts(infile):
     return result
 
 #code testing
-
-print(pdffonts("C:\\temp2\\Certificate.pdf"))
+#print(pdffonts("C:\\temp2\\Certificate.pdf"))
 
 
